@@ -14,5 +14,5 @@ Nukkitで座標を確認できるプラグインです。
 General Public License v3.0
 
 ## Download
-[Github Release](https://github.com/popkechupki/PositionChecker-Nukkit/releases/tag/1.0)
-[MCBE FORUM](https://forum.mcbe.jp/resources/101/)
+ - [Github Release](https://github.com/popkechupki/PositionChecker-Nukkit/releases/tag/1.0)  
+ - [MCBE FORUM](https://forum.mcbe.jp/resources/101/)
