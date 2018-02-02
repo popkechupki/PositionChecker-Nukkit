@@ -5,3 +5,7 @@ load: POSTWORLD
 author: popkechupki
 api: ["1.0.0"]
 description: 自分が今サーバー内のどこにいるかを知ることができます。
+
+commands:
+  xyz:
+    description: 自分が今いる場所を確認する機能の有効化・無効化
