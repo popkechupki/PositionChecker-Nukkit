@@ -28,7 +28,7 @@ public class PositionChecker extends PluginBase implements Listener {
         if(this.list.contains(username)) {
             String direction = this.directionToString(player.getDirection());
             String levelname = player.getLevel().getFolderName();
-            player.sendActionBarTitle(TextFormat.BOLD + (TextFormat.AQUA + "X" + TextFormat.WHITE + ": " + TextFormat.GREEN + player.getFloorX() + TextFormat.AQUA + " Y" + TextFormat.WHITE + ": " + TextFormat.GREEN + (player.getFloorY() - 1) + TextFormat.AQUA + " Z" + TextFormat.WHITE + ": " + TextFormat.GREEN + player.getFloorZ() + TextFormat.YELLOW + " Direction" + TextFormat.WHITE + ": " + TextFormat.GREEN + direction + TextFormat.YELLOW + " World" + TextFormat.WHITE + ": " + TextFormat.GREEN + levelname));
+            player.sendPopup(TextFormat.BOLD + (TextFormat.AQUA + "X" + TextFormat.WHITE + ": " + TextFormat.GREEN + player.getFloorX() + TextFormat.AQUA + " Y" + TextFormat.WHITE + ": " + TextFormat.GREEN + (player.getFloorY() - 1) + TextFormat.AQUA + " Z" + TextFormat.WHITE + ": " + TextFormat.GREEN + player.getFloorZ()), TextFormat.YELLOW + " Direction" + TextFormat.WHITE + ": " + TextFormat.GREEN + direction + TextFormat.YELLOW + " World" + TextFormat.WHITE + ": " + TextFormat.GREEN + levelname);
         }
     }
 
