@@ -1,0 +1,7 @@
+name: PositionChecker
+main: net.comorevi.nukkit.plugin.PositionChecker
+version: 1.0
+load: POSTWORLD
+author: popkechupki
+api: ["1.0.0"]
+description: 自分が今サーバー内のどこにいるかを知ることができます。
